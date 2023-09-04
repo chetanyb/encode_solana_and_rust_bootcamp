@@ -1,0 +1,37 @@
+Question: What a decentralised version of a game like monopoly would be like, if
+there was no software on a central server.
+Answer: Essential Functionality:
+    1. Authentication: Secure login possibly via SSI.
+    2. Asset Ownership: Represented as NFTs.
+    3. Transactions: Buying, trading, paying rent via smart contracts.
+    4. Randomness: Fair dice rolls.
+    5. Real-time Game State: Tracked on a blockchain.
+
+How to Cheat:
+    1. Smart Contract Exploits: Like reentrancy attacks.
+    2. Identity Manipulation: Multiple accounts.
+    3. Game Logic Bugs: Exploiting flaws.
+    4. Unauthorized Transactions: Breaking rules.
+
+ Preventing Cheating:
+    1. Smart Contract Auditing: For secure code.
+    2. Transparency: Public ledger for all transactions.
+    3. Penalties: For proven cheating.
+    4. Security: NFT-based authentication
+
+Question: Do you feel that Central Bank Digital Currencies (CBDCs) are a move towards
+decentralisation? Will they help or hinder adoption of other cryptocurrencies?
+Answer: CBDCs are not a move towards decentralization. They are generally centralized
+digital versions of fiat currencies, controlled by central banks.
+Even if technologies like Hyperledger or other forms of DLT are used, these are often permissioned and not interoperable with open, decentralized networks.
+
+Impact on Cryptocurrency Adoption:
+Help:
+    1. Mainstreaming Digital Assets: CBDCs could normalize the use of digital currencies.
+    2. Potential for Infrastructure Overlap: Technologies used could be adaptable for other cryptocurrencies.
+
+Hinder:
+    1. Regulatory Stranglehold: CBDCs might be accompanied by stringent regulations that stifle crypto innovation.
+    2. Centralized Control: The centralization aspect of CBDCs contradicts the ethos of decentralization in cryptocurrencies.
+
+So, CBDCs present both opportunities and challenges for the broader adoption of cryptocurrencies.

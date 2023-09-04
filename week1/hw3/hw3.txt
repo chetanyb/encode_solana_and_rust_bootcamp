@@ -1,0 +1,1 @@
+Installed Solana CLI and created file system wallet

@@ -1,0 +1,30 @@
+Solana Ecosystem
+1. How many validators are there currently ?
+2. What is special about this block: https://explorer.solana.com/block/0?
+3. What is special about this address: https://explorer.solana.com/address/1nc1nerator11111111111111111111111111111111
+4. What is this transaction: https://explorer.solana.com/tx/45pGoC4Rr3fJ1TKrsiRkhHRbdUeX7633XAGVec6XzVdpRbzQgHhe6ZC6Uq164MPWtiqMg7wCkC6Wy3jy2BqsDEKf doing ?
+5. What is the largest balance you can find in an account ?
+6. What advantages will the end user see when using Solana compared to
+other blockchains ?
+7. Install Rust in preparation for tomorrow's lesson,
+
+1. Number of Validators: 
+   - As of writing the answer(4 September 2023, 14:35 GMT), there're 2,108 validators.
+
+2. Special Block: 
+   - The block in question is the genesis block of the Solana blockchain, created on March 16, 2020.
+
+3. Special Address: 
+   - The address "1nc1nerator11111111111111111111111111111111" serves as Solana's incinerator address. Tokens or NFTs sent here are permanently removed from circulation.
+
+4. Transaction Details: 
+   - The transaction involves the burning of 11,365,066.99 SOL by sending them to the incinerator address.
+
+5. Largest Account Balance: 
+   - The account "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM" holds 16,040,432 SOL. This account is owned by Binance.
+
+6. User Advantages: 
+   - Solana offers high transaction speeds (up to 50,000 TPS), low transaction fees , high decentralization(nakamoto coffecient) and scalability. It also focuses on regenerative finance.
+
+7. Rust Installation: 
+   - done
