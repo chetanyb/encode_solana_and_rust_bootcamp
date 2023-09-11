@@ -1,0 +1,2 @@
+Created own token with supply of 10,000 using CLI: https://explorer.solana.com/address/8RbbsgKJA74mS6kye6Wqeny2Vk2YeRmA4xFYRwn6fVFC?cluster=devnet
+Sent to friend: https://explorer.solana.com/tx/5iYwixwTi5Lm4JjLiNxjcmyPuRXqt3qNpmvFyQQqZsQyXNVbw2GWgLzyJEwWi2aZBjMAQi7GZkYbbaLJytnQUTNQ?cluster=devnet
