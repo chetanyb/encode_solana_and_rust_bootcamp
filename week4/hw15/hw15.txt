@@ -1,0 +1,3 @@
+1. Yes, security should be given the utmost priority especially when dealing with financial tools.
+2. Auditing, Multiple level of code reviews, edge testing, bug bounties, whitehat contracts.
+3. Ideally no but if funds of users are at jeopardy then yes.  
