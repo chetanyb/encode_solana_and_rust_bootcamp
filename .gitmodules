@@ -4,3 +4,6 @@
 [submodule "SolanaBootcamp"]
 	path = SolanaBootcamp
 	url = https://github.com/ExtropyIO/SolanaBootcamp
+[submodule "week3/hw11/dapp-scaffold"]
+	path = week3/hw11/dapp-scaffold
+	url = https://github.com/solana-labs/dapp-scaffold.git
