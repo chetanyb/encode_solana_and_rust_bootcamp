@@ -12,6 +12,11 @@
 mod tests {
     #[test]
     fn you_can_assert() {
-        assert!();
+        assert!(true);
+    }
+    #[test]
+    fn you_can_assert_eq() {
+        let _false = false;
+        assert_eq!(_false, false);
     }
 }
