@@ -6,6 +6,7 @@ declare_id!("D9SsfPjbcNcKAWS8vBWBH9MCV7mcGaGK74KYx9umWAu9");
 pub mod hw13 {
     use super::*;
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        msg!("Initializing account");
         let account = &mut ctx.accounts.my_account;
         account.balance = 100;
         Ok(())
