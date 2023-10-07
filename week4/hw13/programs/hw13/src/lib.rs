@@ -11,6 +11,23 @@ pub mod hw13 {
         account.balance = 100;
         Ok(())
     }
+    pub fn increment100(ctx: Context<Increment100>) -> Result<()> {
+        msg!("Incrementing account by 100");
+        let account = &mut ctx.accounts.my_account;
+        if account.balance+100 > 1000{
+            return err!(IncrementError::IncrementedBalanceOver1000);
+        }
+        else{
+            account.balance += 100;
+            Ok(())
+        }
+    }   
+}
+
+#[error_code]
+pub enum IncrementError {
+    #[msg("Cannot increment by 100")]
+    IncrementedBalanceOver1000
 }
 
 #[derive(Accounts)]
@@ -20,6 +37,11 @@ pub struct Initialize<'info> {
     #[account(mut)]
     pub user: Signer<'info>,
     pub system_program: Program<'info, System>,
+}
+#[derive(Accounts)]
+pub struct Increment100<'info> {
+    #[account(mut)]
+    pub my_account: Account<'info, MyAccount>,
 }
 
 #[account]
