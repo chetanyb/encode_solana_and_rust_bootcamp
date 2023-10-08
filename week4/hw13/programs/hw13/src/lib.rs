@@ -14,7 +14,7 @@ pub mod hw13 {
     pub fn increment100(ctx: Context<Increment100>) -> Result<()> {
         msg!("Incrementing account by 100");
         let account = &mut ctx.accounts.my_account;
-        if account.balance+100 > 1000{
+        if account.balance.checked_add(100).unwrap_or(0) > 1000 {
             return err!(IncrementError::IncrementedBalanceOver1000);
         }
         else{
@@ -42,6 +42,9 @@ pub struct Initialize<'info> {
 pub struct Increment100<'info> {
     #[account(mut)]
     pub my_account: Account<'info, MyAccount>,
+    #[account(mut)]
+    pub user: Signer<'info>,
+    pub system_program: Program<'info, System>,
 }
 
 #[account]
