@@ -7,3 +7,6 @@
 [submodule "week3/hw11/dapp-scaffold"]
 	path = week3/hw11/dapp-scaffold
 	url = https://github.com/chetanyb/dapp-scaffold
+[submodule "solana-bootcamp-project"]
+	path = solana-bootcamp-project
+	url = https://github.com/chetanyb/solana-bootcamp-project
